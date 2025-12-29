@@ -52,7 +52,7 @@ Use conda, venv
 
 install the main packages you used (e.g. `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `jupyter`)
 
-4. **Place the dataset**
+4. ## Place the dataset ##
 
 Make sure `compliance_log.csv` is in the expected location (e.g. repository root or `data/` folder) so that the notebook’s data-loading cell runs without changes.
 
@@ -66,3 +66,10 @@ Open Mask_System.ipynb and run with 'restart kernel and run all cells'
 1. ipynb notebook
 2. git repo url
 3. figures_tables.zip
+
+
+### NOTE ###
+
+file 1: main_mask_sys.ipynb is a Main Model notebook
+file 2: main_sys_layer.ipynb is a System Layer notebook
+file 3: make_rq_figures.ipynb is a Research Question Figures notebook
